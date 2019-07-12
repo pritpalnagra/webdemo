@@ -49,7 +49,8 @@ if defined JAVA_HOME goto findJavaFromJavaHome
 
 :findJavaFromJavaHome
 echo Setting JAvaaaaaaaaaaaaaaaaaaaaaaa
-setx -m JAVA_HOME "C:\Program Files\Java\jdk1.8.0_211"
+echo %JAVA_HOME%
+@setx -m JAVA_HOME "C:\Program Files\Java\jdk1.8.0_211"
 set JAVA_HOME=%JAVA_HOME:"=%
 set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
